@@ -1,0 +1,61 @@
+.form {
+    padding: 1em;
+}
+
+.form__label {
+    font-weight: bold;
+}
+
+.form__input-text {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 0.5em 1em;
+    width: 100%;
+}
+
+.button,
+.form__submit {
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin: 0.5em 0;
+    padding: 1em 1em;
+    width: 100%;
+}
+
+.button--success,
+.form__submit {
+    background: rgb(93,10,82);
+    background: linear-gradient(90deg, rgba(93,10,82,1) 0%, rgba(8,5,117,1) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.button--success:hover,
+.form__submit:hover {
+    background: rgb(93,10,82);
+    background: linear-gradient(90deg, rgba(93,10,82,1) 0%, rgba(8,5,117,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.button--primary {
+    background: rgb(93,10,82);
+    background: linear-gradient(90deg, rgba(93,10,82,1) 0%, rgba(8,5,117,1) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.button--primary:hover {
+    background: rgb(93,10,82);
+    background: linear-gradient(90deg, rgba(93,10,82,1) 0%, rgba(8,5,117,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.button--danger {
+    background: rgb(93,10,82);
+    background: linear-gradient(90deg, rgba(93,10,82,1) 0%, rgba(145,8,8,1) 100%, rgba(11,5,116,1) 100%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+.button--danger:hover {
+    background-color: #b12937;
+}
